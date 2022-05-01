@@ -1,0 +1,12 @@
+﻿In level two, your task is to create a calculator that can handle the reverse polish notation.
+https://en.wikipedia.org/wiki/Reverse_Polish_notation
+
+Your code should accept a string of all the operations in reverse polish notation, and return the result of these operations.
+
+Valid operators are + - * /
+
+All operators and operands will be separated by a space.
+
+You don't need to handle any error case (such as more than 1 result in the end, or stack overflow or division by 0 ...)
+
+Have a look at the unit tests to see examples.

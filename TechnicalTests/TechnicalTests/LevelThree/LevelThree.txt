@@ -1,0 +1,24 @@
+﻿In level three, your task is to pick up a legacy code micro-app and add a new functionality to it.
+
+It is strongly recommended you also add unit tests on the app and refactor it to improve the structure and facilitate future changes.
+
+The code of the app must stay constrained in this here "LevelThree" folder, but you can otherwise do whatever you think is best (create new files, new classes, ...)
+
+For now, all the code is in the LevelThree.cs file, here is a summary of the business rules implemented in the code:
+
+  The micro-app LevelThree allows the user to send commands and have the app do various things based on the command sent.
+  There are three commands, variable command parameters are marked with curly braces:
+    - "Hello {name}" will output to the Console "Hello, {name}, and welcome to the micro-app LevelThree! What can I do for you?"
+    - "Add {x} {y}" will return an integer sum of x and y, which must both be integers
+    - "Print {filename}" will send a print order to the printer with given filename to print (the printer service is omitted here for simplicity)
+
+
+We would like you to add a new command:
+    - "List" will list all available commands, also explaining the parameters if any.
+
+We expect future changes to mainly add new commands, also possible new outcomes: 
+ - different types of data being returned
+ - different outer services called such as a coffee machine that Steve really wants to pilot through the app
+
+Your refactoring should aim at making all these easier to implement and maintain.
+Your refactoring should also aim at making the code cleaner.
